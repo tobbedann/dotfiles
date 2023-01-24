@@ -4,8 +4,9 @@
     "python.formatting.blackArgs": [
         "--line-length=88"
     ],
-    "python.sortImports.args": [
-        "--profile", "black"
+    "isort.args": [
+        "--profile",
+        "black"
     ],
     "python.linting.flake8Args": [
         "--max-line-length=88"
@@ -17,4 +18,5 @@
     },
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
+    "python.analysis.typeCheckingMode": "strict"
 }
